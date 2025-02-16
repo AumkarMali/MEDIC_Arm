@@ -11,10 +11,10 @@ import serial
 import re
 
 # IBM Watson API key for text-to-speech
-api_key = 'JCoD4sHVpURg-mRU2Z2M7AdpNhnc5rYJFSBeaK7qUk5H'
+api_key = ''
 
 # Set up OpenAI API Key
-openai.api_key = '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'
+openai.api_key = ''
 
 # Initialize the recognizer and IBM Watson Text to Speech
 recognizer = sr.Recognizer()
