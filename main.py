@@ -256,7 +256,7 @@ time.sleep(0.2)
 
 
 # MongoDB Connection
-client = MongoClient("mongodb+srv://aumkarmali539:AM20060305!_ilovesushi@clusterdata.gmzht.mongodb.net/?retryWrites=true&w=majority&appName=ClusterData")
+client = MongoClient("")
 db = client["RobotMotion"]
 collection = db["motion"]
 
