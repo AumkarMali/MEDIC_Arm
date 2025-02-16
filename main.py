@@ -168,7 +168,7 @@ def addCommand():
 
 def deleteCommand():
     # Connect to MongoDB
-    client = MongoClient("mongodb+srv://aumkarmali539:AM20060305!_ilovesushi@clusterdata.gmzht.mongodb.net/?retryWrites=true&w=majority&appName=ClusterData")
+    client = MongoClient("")
     db = client["RobotMotion"]  # Database name
     collection = db["motion"]  # Collection name
     
